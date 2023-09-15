@@ -1,0 +1,43 @@
+body
+{
+    background-image: url('/images/wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 96.8vh;
+}
+
+.clocktimer
+{
+    transform: translateY(50%);
+    margin: 0 auto;
+    text-align: center !important;
+}
+
+.clocktimer h2
+{
+    text-transform: uppercase;
+}
+
+.clocktimer .clockbase
+{
+    display: flex;
+    gap: 50px;
+    text-align: center !important;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.clocktimer .clockbase div
+{
+    background-color: #34364F;
+    color: white;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.clocktimer .clockbase div span:first-child
+{
+    font-size: 75px;
+}
